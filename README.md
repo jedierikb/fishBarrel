@@ -1,0 +1,2 @@
+# fishBarrel
+JavaScript object pool
