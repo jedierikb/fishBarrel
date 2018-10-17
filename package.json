@@ -1,0 +1,15 @@
+{
+  "name": "fish-barrel",
+  "version": "0.0.1",
+  "description": "JavaScript object pool",
+  "main": "fish-barrel.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jedierikb/fish-barrel"
+  },
+  "keywords": [
+    "pool"
+  ],
+  "author": "Erik Blankinship",
+  "license": "MIT"
+}
