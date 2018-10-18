@@ -11,5 +11,9 @@
     "pool"
   ],
   "author": "Erik Blankinship",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1"
+  }
 }
