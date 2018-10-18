@@ -1,6 +1,11 @@
-"use strict"
+"use strict";
 
-module.exports = function fishBarrel( string ) {
-  if (typeof string !== "string") throw new TypeError("fish barrel wants a string!");
-  return string.replace(/\s/g, "");
+module.exports = {
+  sayHelloInEnglish: function() {
+    return "HELLO";
+  },
+
+  sayHelloInSpanish: function() {
+    return "Hola";
+  }
 };
