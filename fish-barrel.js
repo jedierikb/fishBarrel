@@ -1,11 +1,9 @@
 "use strict";
 
-module.exports = {
-  sayHelloInEnglish: function() {
-    return "HELLO";
-  },
+module.exports = class fishBarrel{
 
-  sayHelloInSpanish: function() {
-    return "Hola";
+  constructor( a ) {
+    console.error( 'a', a );
   }
+
 };
