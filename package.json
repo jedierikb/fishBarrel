@@ -1,6 +1,6 @@
 {
   "name": "fish-barrel",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "JavaScript object pool with keys",
   "main": "fish-barrel.js",
   "repository": {

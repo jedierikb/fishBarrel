@@ -83,7 +83,7 @@ module.exports = class fishBarrel{
         this.poolKeysMap.set( key, [obj] );
       }
 
-      this.poolKeysMapReverse.put( obj, key );
+      this.poolKeysMapReverse.set( obj, key );
     }
     else {
       throw new Error();
