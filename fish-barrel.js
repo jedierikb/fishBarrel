@@ -70,8 +70,10 @@ module.exports = class fishBarrel{
   recycle( obj, key ) {
     //all objects for recycling should have a key
 
-    //https://stackoverflow.com/a/36419452/62255
-    if (Boolean(key)) {
+    if (key == null) {
+      throw new Error();
+    }
+    else {
       //front of the queue 
       this.poolKeyedObjectsQueue.unshift( obj );
   
@@ -84,9 +86,6 @@ module.exports = class fishBarrel{
       }
 
       this.poolKeysMapReverse.set( obj, key );
-    }
-    else {
-      throw new Error();
     }
   }
 
